@@ -1,85 +1,105 @@
-Simple Weather App
-The Simple Weather App is a Python-based command-line application that fetches real-time weather data using the OpenWeatherMap API. Users can enter a city name to view current weather conditions, including temperature (in Celsius or Fahrenheit) and a brief description.
+🌤️ Simple Weather App
+---
 
-Features
-User Input: Accepts city names to query weather data.
+A lightweight Python-based command-line weather application that retrieves real-time weather data using the OpenWeatherMap API.
+Users can input a city name to view current weather conditions, including temperature (in Celsius or Fahrenheit) and a brief weather description.
 
-API Integration: Fetches real-time data via the OpenWeatherMap API.
+✨ Features
+----------
 
-Temperature Conversion: Automatically converts temperature to Celsius or Fahrenheit based on user preference.
+✅ City-Based Search – Fetch weather data by entering a city name
 
-Error Handling: Gracefully handles connectivity issues, invalid city names, and unexpected data formats.
+🌍 Real-Time Weather Data – Powered by the OpenWeatherMap API
 
-Prerequisites
-To run this application, you will need:
+🌡️ Temperature Units – Supports Celsius and Fahrenheit
+
+⚠️ Error Handling – Gracefully handles:
+
+Invalid city names
+
+Network connectivity issues
+
+Unexpected API responses
+
+🧰 Prerequisites
+
+Make sure you have the following installed:
 
 Python 3.6 or higher
 
-An active internet connection
+Active Internet Connection
 
-An API Key from OpenWeatherMap
+OpenWeatherMap API Key
 
-Installation
-1. Clone the Repository
-Bash
+🚀 Installation
+1️⃣ Clone the Repository
 git clone https://github.com/Dhanush312/simple-weather-app.git
 cd simple-weather-app
-2. Set Up a Virtual Environment (Optional but Recommended)
-For Windows:
 
-Bash
+2️⃣ Set Up a Virtual Environment (Optional but Recommended)
+Windows
 python -m venv env
 .\env\Scripts\activate
-For macOS and Linux:
 
-Bash
+macOS / Linux
 python3 -m venv env
 source env/bin/activate
-3. Install Dependencies
-Install the required libraries, including requests for API calls and python-dotenv for security.
 
-Bash
+3️⃣ Install Dependencies
 pip install requests python-dotenv
-Configuration
-Get an API Key: Sign up at OpenWeatherMap to obtain a free API key.
 
-Create Environment File: Create a file named .env in the root directory of the project.
+⚙️ Configuration
+🔑 Get an API Key
 
-Add Your Key: Open the .env file and add the following line:
+Sign up at OpenWeatherMap to obtain a free API key.
 
-Plaintext
+📁 Create Environment File
+
+Create a file named .env in the project root directory.
+
+📝 Add Your API Key
 API_KEY=your_api_key_here
-(Note: The application is configured to load this key securely so you don't have to hardcode it in the script.)
 
-Usage
-Run the application using the following command:
 
-Bash
+🔒 Note: The application loads the API key securely using environment variables—no hardcoding required.
+
+▶️ Usage
+
+Run the application using:
+
 python app.py
+
+
 Follow the on-screen prompts to:
 
-Enter the city name.
+Enter the city name
 
-Choose your preferred temperature unit.
+Choose your preferred temperature unit (Celsius or Fahrenheit)
 
-Contributing
-Contributions are welcome! If you'd like to improve this project, please follow these steps:
+🤝 Contributing
 
-Fork the repository.
+Contributions are welcome! 🚀
+To contribute to this project:
 
-Create a new branch for your feature:
+Fork the repository
 
-Bash
+Create a new feature branch:
+
 git checkout -b feature-branch
-Make your changes and commit them:
 
-Bash
-git commit -am "Add some feature"
-Push to the branch:
 
-Bash
+Commit your changes:
+
+git commit -am "Add new feature"
+
+
+Push to your branch:
+
 git push origin feature-branch
-Create a Pull Request.
 
-License
+
+Open a Pull Request
+
+📄 License
+
 This project is licensed under the MIT License.
