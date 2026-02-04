@@ -48,25 +48,27 @@ Configuration
 Get an API Key
 Sign up at https://openweathermap.org/ to obtain a free API key.
 
-Create Environment File
+## Create Environment File
 Create a file named .env in the project root directory.
 
-Add Your API Key
+## Add Your API Key
 API_KEY=your_api_key_here
-Note:
+## Note:
 The application securely loads the API key using environment variables—no hardcoding required.
 
-Usage
+## Usage
 Run the application using:
 
 python app.py
-Follow the on-screen prompts to:
+
+## Follow the on-screen prompts to:
 
 Enter the city name
 
 Choose your preferred temperature unit (Celsius or Fahrenheit)
 
-Contributing
+------------------
+## Contributing
 Contributions are welcome!
 
 Fork the repository
