@@ -31,12 +31,11 @@ Make sure you have the following installed:
 
 ### 1. Clone the Repository
 
-```bash
 git clone https://github.com/Dhanush312/simple-weather-app.git
 cd simple-weather-app
 
 ### 2. Set Up a Virtual Environment (Optional but Recommended)
-```bash Windows
+ Windows
 python -m venv env
 .\env\Scripts\activate
 macOS / Linux
@@ -81,6 +80,7 @@ Push to the branch:
 
 git push origin feature-branch
 Open a Pull Request
-
+-----
 License
+----
 This project is licensed under the MIT License.
