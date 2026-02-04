@@ -41,7 +41,8 @@ python -m venv env
 macOS / Linux
 python3 -m venv env
 source env/bin/activate
-3. Install Dependencies
+
+### 3. Install Dependencies
 pip install requests python-dotenv
 Configuration
 Get an API Key
@@ -80,7 +81,7 @@ Push to the branch:
 
 git push origin feature-branch
 Open a Pull Request
------
+
 License
 ----
 This project is licensed under the MIT License.
